@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nourin Khatun Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  <div class="page-background"></div>
+  <div class="page-content">
+    <header class="header">
+      <div class="logo-brand">
+        <span class="logo-icon">🟣</span>
+        <span class="logo-text">Nourin Khatun</span>
+      </div>
+      <nav class="nav">
+        <a href="#home" class="nav__link">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#work" class="nav__link">Work</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#Projects" class="nav__link">Projects</a>
+        <a href="#clubs&activity" class="nav__link">clubs&activity</a>
+        <a href="#contact" class="nav__link">Contact</a>
+       
+      </nav>
+      <button class="theme-toggle-button" aria-label="Toggle Dark Mode" title="Toggle Dark Mode">🌙</button>
+    </header>
+
+    <main class="main" role="main">
+      <section class="section hero-section" id="home">
+        <div class="hero-left">
+          <h1>Building <br/> <span class="highlight">reliable & efficient </span><br/>web solutions.</h1>
+        <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})" class="btn btn-primary btn-arrow" type="button">
+  Get In Touch <span class="arrow">→</span>
+</button>
+
+          <div class="hero-social" aria-label="Social media links">
+          <a href="https://github.com/Nourin20" target="_blank" aria-label="GitHub" class="social-btn github-btn">
+            <i class="fab fa-github"></i>
+            <span class="btn-text">GitHub</span>
+          </a>
+          <a href="https://linkedin.com/in/Nourin-khatun-69b1b5288" target="_blank" aria-label="LinkedIn" class="social-btn linkedin-btn">
+            <i class="fab fa-linkedin"></i>
+            <span class="btn-text">LinkedIn</span>
+          </a>
+        </div>
+
+        </div>
+        <div class="hero-right">
+          <div class="profile-wrapper">
+            <img src="https://i.postimg.cc/PrCtsxkr/dp.jpg" alt="Nourin Khatun" class="profile-img" />
+            
+          </div>
+          <div class="hero-role-card">
+            <p class="role-title">Full Stack Developer</p>
+            <p class="role-desc">Hi! I'm Nourin, a passionate developer focused on user-friendly, modern web experiences.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-description">I am a dedicated fresher developer with a strong academic foundation and internship experience. Eager to apply my skills to solve real-world problems and grow as a software professional.</p>
+        <ul class="education-list">
+          <br/>
+             <li><strong> B.Tech in Information Technology</strong>, MAKAUT (2022–Present), GPA 8.17</li>
+             <li><strong> Class 12th</strong>, West Bengal Council of Higher Secondary Education, 2022, 87.9%</li>
+            <li><strong>  Class 10th</strong>, West Bengal Board of Secondary Education, 2020, 73.5%</li>
+        </ul>
+      </section>
+
+      <section class="section work-section" id="work">
+        <h2 class="section-title">Work Experience & Growth</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-point"></div>
+            <div class="timeline-content">
+              <h3>IBM SkillBuild Intern</h3>
+              <span class="timeline-date">Aug 2025 – Present</span>
+              <p>Contributing to full-stack development projects focusing on backend services using Java, Spring Boot, and databases, while integrating frontend components efficiently.</p>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+     <section class="section skills-section" id="skills">
+  <h2 class="section-title">Skills & Expertise</h2>
+  <div class="skills-refbox">
+    <div class="skills-col">
+      <h3>Technical Skills</h3>
+      <ul class="skills-list tech-skills">
+        <li><span class="skill-label">C, Java</span><span class="skill-value">85%</span></li>
+        <li><span class="skill-label">HTML, CSS, JavaScript</span><span class="skill-value">90%</span></li>
+        <li><span class="skill-label">Spring Boot, Express.js, Hibernate</span><span class="skill-value">75%</span></li>
+        <li><span class="skill-label">MySQL, PostgreSQL, JDBC</span><span class="skill-value">80%</span></li>
+        <li><span class="skill-label">Maven, Git, GitHub, IntelliJ IDEA</span><span class="skill-value">85%</span></li>
+        <li><span class="skill-label">JWT Authentication</span><span class="skill-value">70%</span></li>
+      </ul>
+    </div>
+    <div class="skills-col">
+      <h3>Soft Skills</h3>
+      <ul class="skills-list soft-skills">
+        <li>Teamwork</li>
+        <li>Communication</li>
+        <li>Analytical Thinking</li>
+        <li>Time Management</li>
+        <li>Adaptability</li>
+        <li>Fast Learner</li>
+      </ul>
+    </div>
+    <div class="skills-col">
+      <h3>Languages</h3>
+      <ul class="skills-list languages">
+        <li>English (Proficient)</li>
+        <li>Bengali (Native)</li>
+        <li>Hindi (Fluent)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- Projects Section -->
+<section aria-labelledby="projects-title" id="Projects">
+  <h2 id="projects-title" class="section-title">PROJECTS</h2>
+  <div class="projects-wrapper">
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img class="project-image" src="https://i.postimg.cc/x8sR16z8/ev-img.jpg" alt="EventMate Screenshot" />
+      <div class="project-details">
+        <h3 class="project-title">EventMate – Full Stack Event Planning Platform</h3>
+        <p class="project-tech"><strong>Tech Stack:</strong> Java, Spring Boot, React.js, MySQL, Cloudinary, Razorpay, Tailwind</p>
+        <p>
+          Built a web app enabling users to discover and book event vendors with real-time availability.<br>
+          Improved booking efficiency, reducing manual vendor communication by 60%.
+        </p>
+        <div class="project-actions">
+          <a href="#" class="project-btn primary-btn">Know More</a>
+          <a href="#" class="project-btn">Preview <span aria-hidden="true">&#128279;</span></a>
+        </div>
+      </div>
+    </div>
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img class="project-image" src="https://i.postimg.cc/yxhjCVVm/hospital.webp" alt="Hospital Management System Screenshot" />
+      <div class="project-details">
+        <h3 class="project-title">Hospital Management System</h3>
+        <p class="project-tech"><strong>Tech Stack:</strong> HTML, CSS, JavaScript, PHP</p>
+        <p>
+          Developed a full-stack web application to manage hospital operations, including patient records, staff, appointments, and billing.<br>
+          Implemented role-based access, designed a responsive UI, and integrated appointment scheduling and patient record tracking.
+        </p>
+        <div class="project-actions">
+          <a href="#" class="project-btn primary-btn">Know More</a>
+          <a href="#" class="project-btn">Preview <span aria-hidden="true">&#128279;</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Clubs & Activities Section -->
+<section aria-labelledby="clubs-activity-title" id="clubs&activity">
+  <h2 id="clubs-activity-title" class="section-title">Clubs & Activity</h2>
+
+  <div class="clubs-section">
+    <div class="club-card club-robonixx">
+      <img src="https://i.postimg.cc/Bn9PCwj9/robonixxlogo.jpg" alt="Robonixx Club Logo" class="club-logo" />
+      <h3>Robonixx Club</h3>
+      <h4>2023 – Present</h4>
+      <p>Worked on robotics projects and coordinated events, building teamwork and leadership.</p>
+    </div>
+    <div class="club-card club-codevision">
+      <img src="https://i.postimg.cc/mZjmJCQ5/cvlogo.jpg" alt="CodeVision Club Logo" class="club-logo" />
+      <h3>CodeVision Club</h3>
+      <h4>2023 – Present</h4>
+      <p>Organized coding workshops and competitions, enhancing communication skills.</p>
+    </div>
+    <div class="club-card club-iete">
+      <img src="https://i.postimg.cc/q7RWRQ4S/IETE-LOGO.jpg" alt="IETE Club Logo" class="club-logo" />
+      <h3>IETE & Tech Clubs</h3>
+      <h4>2023 – Present</h4>
+      <p>Coordinated events and managed logistics for technical sessions and workshops.</p>
+    </div>
+  </div>
+</section>
+
+
+      <section class="section contact-section" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+    <form class="contact-form" action="https://formspree.io/f/mdkwoade" method="POST" novalidate>
+      <label for="name">Name</label>
+  <input type="text" name="name" id="name" placeholder="Your full name" required />
+
+  <label for="email">Email</label>
+  <input type="email" name="_replyto" id="email" placeholder="your.email@example.com" required />
+
+  <label for="message">Message</label>
+  <textarea name="message" id="message" rows="4" placeholder="Write your message here..." required></textarea>
+
+  <button type="submit">Send Message</button>
+    </form>
+
+
+  <!-- Popup Modal -->
+  <div id="message-popup" role="alert" aria-live="assertive" aria-atomic="true">
+  <p>Message sent successfully!</p>
+  <button id="popup-close-btn" aria-label="Close Message Popup">Close</button>
+</div>
+
+
+        <div class="contact-info">
+          <span>Phone: +91-8972241212</span>
+          <span>Email: <a href="mailto:nourinparvin91@gmail.com">nourinparvin91@gmail.com</a></span>
+          <span>LinkedIn: <a href="https://linkedin.com/in/Nourin-khatun-69b1b5288" target="_blank" rel="noopener noreferrer">linkedin.com/in/Nourin-khatun-69b1b5288</a></span>
+          <span>GitHub: <a href="https://github.com/Nourin20" target="_blank" rel="noopener noreferrer">github.com/Nourin20</a></span>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="portfolio.js"></script>
+  <script src="https://kit.fontawesome.com/8b7c7211f4.js" crossorigin="anonymous"></script>
+</body>
+</html>
