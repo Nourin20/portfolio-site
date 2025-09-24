@@ -58,6 +58,7 @@ body.dark .page-content {
   padding-top: 4.5rem; /* height of the fixed header */
 }
 
+
 .nav {
   display: flex;
   gap: 2rem;
@@ -71,6 +72,40 @@ body.dark .page-content {
   padding: 0.5rem 0;
   border-bottom: 2px solid transparent;
   transition: color 0.3s ease, border-color 0.3s ease;
+}
+.nav-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #7c4dff;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    background: rgba(124, 77, 255, 0.1);
+    padding: 1rem;
+    border-radius: 8px;
+    position: absolute;
+    top: 70px; /* adjust based on header height */
+    right: 1rem;
+    width: 200px;
+    box-shadow: 0 4px 12px rgb(124 77 255 / 0.4);
+  }
+  .nav.show {
+    display: flex;
+  }
+  .nav__link {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(124, 77, 255, 0.2);
+  }
+  .nav-toggle {
+    display: block;
+  }
 }
 
 .nav__link:hover,
