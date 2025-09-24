@@ -1,6 +1,6 @@
 # Nourin Khatun Portfolio
 [preview images]
-Darkmode.preview.png
+Darkmode.preview.png ,
 lightmode.preview.png
 
 A modern, responsive personal portfolio website to showcase my projects, skills, and achievements.
@@ -9,10 +9,6 @@ A modern, responsive personal portfolio website to showcase my projects, skills,
 - 📱 Mobile-friendly responsive design
 - 💡 Animated sections with smooth navigation
 - 📬 Contact form with Formspree integration
-
-## Demo
-
-[Live Portfolio](https://nourin20.github.io/portfolio-site/)
 
 ## Features
 
