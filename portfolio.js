@@ -4,6 +4,12 @@ const nav = document.querySelector('.nav');
 navToggle.addEventListener('click', () => {
   nav.classList.toggle('show');
 });
+
+// Optional: Hide nav after clicking a link (improves UX)
+document.querySelectorAll('.nav__link').forEach(link =>
+  link.addEventListener('click', () => nav.classList.remove('show'))
+);
+
 const btnToggle = document.querySelector('.theme-toggle-button');
 const body = document.body;
 
