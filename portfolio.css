@@ -98,24 +98,6 @@ body.dark .page-content {
   color: #6a4baf;
   border-bottom-color: #483474;
 }
-/* --- Elegant Dark Mode Nav Bar --- */
-body.dark .header {
-  background: #231a37; 
-  border-bottom: 1px solid #382e63;
-}
-body.dark .nav {
-  background: #231a37;   /* unified solid color */
-  box-shadow: 0 4px 12px rgba(60, 25, 110, 0.18);
-}
-body.dark .nav__link {
-  color: #ceb4ff;
-  border-bottom: 2px solid #7c4dff; /* single color underline for desktop */
-}
-body.dark .nav__link:hover,
-body.dark .nav__link:focus {
-  color: #beaaff;
-  border-bottom-color: #beaaff;
-}
 
 
 /* Hamburger menu toggle button */
